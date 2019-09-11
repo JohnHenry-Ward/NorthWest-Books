@@ -1,0 +1,23 @@
+/* CSS for about.php */
+
+:root{
+    --main-green: #2B7A78;
+    --text-color: #17252A;
+    --bg-color: #DEF2F1;
+    --off-white: #FEFFFF;
+    --light-green: #3AAFA9;
+    --text-font: 'Calibri';
+    --title-font: 'Garamond';
+}
+
+.pageContent{
+    margin-left: 20%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.pageContent a{
+    color: var(--light-green);
+}

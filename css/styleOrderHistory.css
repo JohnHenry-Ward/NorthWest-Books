@@ -1,0 +1,49 @@
+/* CSS for orderHistory.php */
+
+:root{
+    --main-green: #2B7A78;
+    --text-color: #17252A;
+    --bg-color: #DEF2F1;
+    --off-white: #FEFFFF;
+    --light-green: #3AAFA9;
+    --text-font: 'Calibri';
+    --title-font: 'Garamond';
+}
+
+.orderHistoryHeader{
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.orderHistoryTable{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+.orderHistoryTable tr:nth-child(even){
+    background-color: gainsboro;
+}
+
+.bookImage{
+    float: left;
+    margin: 0 10px;
+}
+
+.orderHistoryTable p{
+    margin: 0;
+    padding: 0;
+}
+
+.orderHistoryTable a{
+    text-decoration: none;
+    color: var(--light-green);
+}
+
+.orderHistoryTable td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

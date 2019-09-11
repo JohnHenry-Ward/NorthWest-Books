@@ -1,0 +1,65 @@
+/* CSS for searchBrowse.php */
+
+:root{
+    --main-green: #2B7A78;
+    --text-color: #17252A;
+    --bg-color: #DEF2F1;
+    --off-white: #FEFFFF;
+    --light-green: #3AAFA9;
+    --text-font: 'Calibri';
+    --title-font: 'Garamond';
+}
+
+.sbResult{
+    margin-left: 20%;
+    font-size: 20px;
+    margin-left: 40%;
+    padding-top: 30px;
+}
+
+.sbBook{
+    margin-left: 20%;
+    padding-left: 60px;
+    padding-right: 120px;
+    padding-bottom: 10px;
+}
+
+.sbTitle{
+    color: var(--text-color);
+    font-family: var(--text-font);
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 20px;
+}
+
+.sbTitle a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.sbAuthor{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.sbAuthor a{
+    color: var(--light-green);
+}
+
+.sbImage{
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.sbDesc{
+    display: inline-block;
+    width: 90%;
+    padding-left: 30px;
+}
+
+.sbDesc a{
+    text-decoration: none;
+    color: var(--light-green);
+}

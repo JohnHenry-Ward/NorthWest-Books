@@ -1,0 +1,246 @@
+/* CSS for header.php, side.php, footer.php */
+
+:root{
+    --main-green: #2B7A78;
+    --text-color: #17252A;
+    --bg-color: #DEF2F1;
+    --off-white: #FEFFFF;
+    --light-green: #3AAFA9;
+    --text-font: 'Calibri';
+    --title-font: 'Garamond';
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    margin: 0;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: var(--text-font);
+    height: 100%;
+}
+
+main{
+    min-height: 100%; /*this makes pages with one result look normal*/
+    position: relative;
+}
+
+/* Header Elements */
+
+header{
+    height: 90px;
+    width: 100%;
+    background-color: var(--main-green);
+    text-align: center;
+    position: relative;
+}
+
+.title{
+    padding-top: 10px;
+    margin: 0 auto;
+    text-align: center;
+    display: inline-block;
+    font-family: var(--title-font);
+    letter-spacing: 15px;
+    font-size: 45px;
+    font-weight: lighter;
+}
+
+.title a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.fa-tree{
+    font-size: 60px;
+}
+
+i{
+    font-size: 25px;
+}
+
+.cart, .account, .about{
+    font-size: 25px;
+}
+
+.cart a{
+    text-decoration: none;
+}
+
+.account{
+    top: 0;
+    left: 10px;
+    margin-left: 0;
+    margin-top: 15px;
+    position: absolute;
+}
+
+.accountEmail{
+    font-size: 10px;
+    margin-left: 50px;
+    margin-top: 2px;
+}
+
+.cart{
+    top: 0;
+    right: 0;
+    margin-right: 33px;
+    margin-top: 15px;
+    position: absolute;
+}
+
+.about{
+    top: 0;
+    right: 0;
+    margin-top: 50px;
+    margin-right: 20px;
+    position: absolute;
+}
+
+.about a, .account a, .cart a{
+    color: var(--text-color);
+}
+
+.about a:hover, .account a:hover, .cart a:hover{
+    color: var(--light-green);
+}
+
+/* Nav/sidebar elements */
+
+nav{
+    background-color: var(--main-green);
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+}
+
+.clearFloat{
+    float: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+nav a:hover{
+    color: var(--light-green);
+}
+
+.search{
+    margin-bottom: 25px;
+}
+
+.searchTitle{
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.searchBox{
+    background-color: var(--off-white);
+    border: none;
+    height: 30px;
+    font-size: 14px;
+}
+
+.submitBTN{
+    display: block;
+    margin: 5px auto;
+    background-color: var(--light-green);
+    border: none;
+    width: 60px;
+    height: 20px;
+}
+
+.submitBTN:hover{
+    background-color: var(--off-white);
+    color: var(--light-green);
+    cursor: pointer;
+}
+
+.browse{
+    margin-bottom: 10px;
+}
+
+.searchBrowse{
+    position: sticky;
+    top: 0;
+    padding-top: 20px;
+}
+
+/* hehe */
+#spinTree:hover{
+    animation: spin 2s linear;
+    color: var(--light-green);
+    animation-play-state: running;
+    animation-fill-mode: backwards;
+}
+
+@keyframes spin{
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+/* end hehe */
+
+/* Footer elements */
+
+footer{
+    background-color: var(--main-green);
+    margin-top: 0;
+    height: 120px;
+}
+
+.footerNav{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.footerNav a{
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.footerNav a:hover{
+    color: var(--light-green);
+}
+
+.footerCredit{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.footerLinks{
+    text-align: center;
+    padding-top: 15px;
+}
+
+.footerLinks a{
+    text-decoration: none;
+    color: var(--text-color);
+    display: inline-block;
+}
+
+#githubFooter, #linkedinFooter, #twitterFooter{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.footerLinks a:hover{
+    color: var(--light-green);
+}

@@ -1,0 +1,141 @@
+/* Style for checkout02.php */
+
+:root{
+    --main-green: #2B7A78;
+    --text-color: #17252A;
+    --bg-color: #DEF2F1;
+    --off-white: #FEFFFF;
+    --light-green: #3AAFA9;
+    --text-font: 'Calibri';
+    --title-font: 'Garamond';
+}
+
+.validationFailed{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    display: block;
+    color: red;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+.backBTN{
+    background-color: var(--light-green);
+    color: var(--text-color);
+    border: none;
+    padding: 2px 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70px;
+    text-align: center;
+}
+
+.backBTN:hover{
+    background-color: var(--off-white);
+    color: var(--light-green);
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.shippingConfirm{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+.shippingInfo{
+    margin-left: 20%;
+    padding-left: 100px;
+    font-size: 18px;
+}
+
+.shippingInfo p{
+    margin: 0;
+}
+
+table{
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.cartTable{
+    margin-left: 22%;
+    text-align: center;
+    width: 55%;
+    font-size: 18px;
+}
+
+.cartTable td{
+    padding: 10px 5px;
+}
+
+.cartTable a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.cartTable a:hover{
+    color: var(--light-green);
+}
+
+.cartTable tr:nth-child(even){
+    background-color: gainsboro;
+}
+
+.shipTotal{
+    margin-left: 65%;
+    margin-top: 10px;
+}
+
+.cartBTNS{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.leaveCartBTN{
+    background-color: var(--light-green);
+    color: var(--text-color);
+    border: none;
+    text-decoration: none;
+    padding: 5px 7px;
+}
+
+.leaveCartBTN:hover{
+    background-color: var(--off-white);
+    color: var(--light-green);
+}
+
+.orderHistoryForm{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.orderHistoryBTN{
+    background-color: var(--light-green);
+    color: var(--text-color);
+    border: none;
+    padding: 7px 7px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.orderHistoryBTN:hover{
+    background-color: var(--off-white);
+    color: var(--light-green);
+}

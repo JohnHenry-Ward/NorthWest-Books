@@ -1,0 +1,61 @@
+/* CSS for index.php */
+
+:root{
+    --main-green: #2B7A78;
+    --text-color: #17252A;
+    --bg-color: #DEF2F1;
+    --off-white: #FEFFFF;
+    --light-green: #3AAFA9;
+    --text-font: 'Calibri';
+    --title-font: 'Garamond';
+}
+
+.randBook{
+    margin-left: 20%;
+    padding-left: 60px;
+    padding-right: 10%;
+    padding-bottom: 10px; 
+}
+
+.bookTitle{
+    color: var(--text-color);
+    font-family: var(--text-font);
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 20px;
+}
+
+.bookTitle a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.bookAuthor{
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.bookAuthor a{
+    color: var(--light-green);
+    text-decoration: none;
+}
+
+.bookImage{
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.bookDesc{
+    display: inline-block;
+    width: 90%;
+    padding-left: 30px;
+    margin-top: 0;
+}
+
+.bookDesc a{
+    text-decoration: none;
+    color: var(--light-green);
+}
